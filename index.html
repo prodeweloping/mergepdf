@@ -64,7 +64,7 @@
 
     <style>
         /* ============================================================
-           UNIFIED NAVBAR & FOOTER — SQUARE LOGO IMAGE
+           UNIFIED NAVBAR & FOOTER — ROUNDED SQUARE LOGO IMAGE
         ============================================================ */
         * {
             margin: 0;
@@ -145,7 +145,7 @@
             background: rgba(204, 0, 0, 0.06);
         }
 
-        /* ----- SQUARE LOGO IMAGE ----- */
+        /* ----- ROUNDED SQUARE LOGO IMAGE (border-radius: 8px) ----- */
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
@@ -168,8 +168,9 @@
             width: 32px;
             height: 32px;
             object-fit: cover;
-            border-radius: 0; /* SQUARE — no rounding */
+            border-radius: 8px; /* Rounded square — thoda round gol squre */
             flex-shrink: 0;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
         }
 
         .nav-links-mobile {
@@ -907,6 +908,7 @@
             .logo-icon {
                 width: 28px;
                 height: 28px;
+                border-radius: 6px;
             }
             .nav-links-mobile {
                 padding: 12px 16px 10px;
@@ -1051,6 +1053,7 @@
             .logo-icon {
                 width: 24px;
                 height: 24px;
+                border-radius: 4px;
             }
             .nav-links-mobile {
                 padding: 10px 14px 8px;
@@ -1142,6 +1145,7 @@
             .logo-icon {
                 width: 32px;
                 height: 32px;
+                border-radius: 8px;
             }
             .nav-links-mobile {
                 max-width: 300px;
@@ -1177,7 +1181,7 @@
 <body>
 
     <!-- ============================================================
-       UNIFIED NAVBAR — SQUARE LOGO IMAGE
+       UNIFIED NAVBAR — ROUNDED SQUARE LOGO IMAGE
     ============================================================ -->
     <nav id="mainNav">
         <div class="nav-container">
